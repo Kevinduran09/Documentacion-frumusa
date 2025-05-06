@@ -1,0 +1,40 @@
+type User {
+  id: ID!
+  email: String!
+  password: String!
+  lastLogin: String
+}
+
+type Customer {
+  id: ID!
+  name: String!
+  billingAddress: String!
+  defaultShippingAddress: String!
+  user: User!
+  shoppingCart: [ShoppingCart!]!
+  order: [Order!]!
+}
+
+type ShoppingCart {
+  id: ID!
+  productId: ID!
+  customer: Customer!
+}
+
+type Order {
+  id: ID!
+  customer: Customer!
+  orderDate: String!
+  status: String!
+  price: Float!
+}
+
+type OrderDetails {
+  id: ID!
+  order: Order!
+  shippingAddress: String!
+  shippingType: String!
+  shippingCost: Float!
+  billingAddress: String!
+  createdDate: String!
+}
