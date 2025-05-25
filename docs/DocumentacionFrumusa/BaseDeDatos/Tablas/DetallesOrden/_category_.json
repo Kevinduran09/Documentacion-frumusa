@@ -1,0 +1,8 @@
+{
+  "label": "Tabla TAECDETALLES_ORDEN",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Contiene la estructura, llaves y descripción general de la tabla TAECDETALLES_ORDEN."
+  }
+}
