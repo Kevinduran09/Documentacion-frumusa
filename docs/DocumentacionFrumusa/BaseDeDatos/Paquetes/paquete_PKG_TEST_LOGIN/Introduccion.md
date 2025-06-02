@@ -38,9 +38,3 @@ Procedimiento auxiliar que compara un resultado esperado (`p_expected`) con un r
 
 - **Función:** `FN_CUSTOM_LOGIN`
 - **Entradas esperadas:** número de identificación del cliente y contraseña
-
-## Ejemplo de ejecución
-
-```sql
--- Ejecutar pruebas
-EXEC PKG_TEST_LOGIN.RUN_ALL_TESTS;
