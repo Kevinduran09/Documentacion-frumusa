@@ -25,7 +25,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Kevinduran09/Documentacion-frumusa/tree/main/',
         },
     
         theme: {
@@ -94,16 +94,16 @@ const config = {
             title: 'Documentación',
             items: [
               {
-                label: 'Introducción',
-                to: '/docs/intro',
+                label: 'Base de Datos',
+                to: '/docs/DocumentacionFrumusa/BaseDeDatos',
               },
               {
-                label: 'Guías de Uso',
-                to: '/docs/category/guías-de-uso',
+                label: 'Frontend',
+                to: '/docs/DocumentacionFrumusa/FrontEnd Frumusa',
               },
               {
-                label: 'Soporte Técnico',
-                to: '/docs/category/soporte',
+                label: 'Vistas',
+                to: '/docs/DocumentacionFrumusa/vistas',
               },
             ],
           },
