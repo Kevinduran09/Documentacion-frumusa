@@ -95,20 +95,17 @@ const config = {
             items: [
               {
                 label: "Base de Datos",
-                to: "/docs/DocumentacionFrumusa/BaseDeDatos",
+                to: "/docs/category/base-de-datos-frumusa",
               },
               {
                 label: "Frontend",
-                to: "/docs/DocumentacionFrumusa/FrontEnd Frumusa",
+                to: "/docs/category/documentación-frontend-frumusa",
               },
-              {
-                label: "Vistas",
-                to: "/docs/DocumentacionFrumusa/vistas",
-              },
+           
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Interfrud. Todos los derechos reservados.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Interfrutd. Todos los derechos reservados.`,
         logo: {
           alt: "Frumusa Logo",
           src: "img/Logo_Interfrutd_192.png",

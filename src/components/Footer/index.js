@@ -8,7 +8,7 @@ function Footer() {
       <div className={styles.footerContent}>
         <div className={styles.footerSection}>
           <h3>Frumusa</h3>
-          <p>Documentación oficial de la aplicación desarrollada para Interfrud</p>
+          <p>Documentación oficial de la aplicación desarrollada para Interfrutd</p>
         </div>
         
         <div className={styles.footerSection}>
@@ -23,14 +23,14 @@ function Footer() {
         <div className={styles.footerSection}>
           <h4>Contacto</h4>
           <ul>
-            <li>Email: soporte@interfrud.com</li>
+            <li>Email: soporte@interfrutd.com</li>
             <li>Teléfono: +34 XXX XXX XXX</li>
           </ul>
         </div>
       </div>
       
       <div className={styles.footerBottom}>
-        <p>© {new Date().getFullYear()} Interfrud. Todos los derechos reservados.</p>
+        <p>© {new Date().getFullYear()} Interfrutd. Todos los derechos reservados.</p>
       </div>
     </footer>
   );

@@ -14,7 +14,7 @@ function HomepageHeader() {
           Frumusa
         </Heading>
         <p className="hero__subtitle">
-          Documentación oficial de la aplicación desarrollada para Interfrud
+          Documentación oficial de la aplicación desarrollada para Interfrutd
         </p>
         <div className={styles.buttons}>
           <Link
@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <Layout
       title="Frumusa - Documentación Oficial"
-      description="Documentación oficial de la aplicación Frumusa desarrollada para Interfrud"
+      description="Documentación oficial de la aplicación Frumusa desarrollada para Interfrutd"
     >
       <HomepageHeader />
       <main>
