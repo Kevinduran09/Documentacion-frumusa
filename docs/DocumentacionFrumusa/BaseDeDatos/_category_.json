@@ -3,6 +3,7 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Información sobre las vistas de la base de datos"
-  }
+    "description": "Documentación completa de la base de datos Frumusa, incluyendo tablas, vistas, procedimientos almacenados, funciones y más"
+  },
+  "className": "database-category"
 }

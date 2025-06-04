@@ -2,25 +2,25 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          Frumusa
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          Documentación oficial de la aplicación desarrollada para Interfrud
+        </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/category/documentación-frumusa">
-            Docusaurus Tutorial - 5min ⏱️
+            className="button button--primary button--lg"
+            to="/docs/intro">
+            Comenzar a leer 📚
           </Link>
         </div>
       </div>
@@ -28,12 +28,40 @@ function HomepageHeader() {
   );
 }
 
+function HomepageFeatures() {
+  return (
+    <section className={styles.features}>
+      <div className="container">
+        <div className="row">
+          <div className="col col--4">
+            <div className={styles.featureCard}>
+              <h3>Documentación Completa</h3>
+              <p>Accede a toda la información necesaria sobre la aplicación Frumusa, desde la instalación hasta el uso avanzado.</p>
+            </div>
+          </div>
+          <div className="col col--4">
+            <div className={styles.featureCard}>
+              <h3>Guías de Uso</h3>
+              <p>Encuentra tutoriales paso a paso y ejemplos prácticos para aprovechar al máximo todas las funcionalidades.</p>
+            </div>
+          </div>
+          <div className="col col--4">
+            <div className={styles.featureCard}>
+              <h3>Soporte Técnico</h3>
+              <p>Información sobre soporte técnico, resolución de problemas y mejores prácticas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Frumusa - Documentación Oficial"
+      description="Documentación oficial de la aplicación Frumusa desarrollada para Interfrud">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

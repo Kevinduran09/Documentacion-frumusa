@@ -61,10 +61,15 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
-        title: 'Documentación Frumusa',
+        title: 'Frumusa',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Frumusa Logo',
           src: 'img/Logo_Interfrutd_192.png',
         },
         items: [
@@ -75,45 +80,46 @@ const config = {
             label: 'Documentación',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Kevinduran09/Documentacion-frumusa',
             label: 'GitHub',
             position: 'right',
           },
         ],
+        style: 'primary',
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
-            items: [
-              
-            ],
-          },
-          {
-            title: 'Community',
+            title: 'Documentación',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Introducción',
+                to: '/docs/intro',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Guías de Uso',
+                to: '/docs/category/guías-de-uso',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Soporte Técnico',
+                to: '/docs/category/soporte',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Interfrud. Todos los derechos reservados.`,
+        logo: {
+          alt: 'Frumusa Logo',
+          src: 'img/Logo_Interfrutd_192.png',
+          href: 'https://interfrud.com',
+        },
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+     
     }),
 };
 

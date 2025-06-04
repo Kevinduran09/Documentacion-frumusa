@@ -1,0 +1,8 @@
+{
+  "label": "Vistas",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentación de las vistas predefinidas en la base de datos Frumusa"
+  }
+} 

@@ -1,8 +1,0 @@
-{
-  "label": "Tabla TAEC_ORDENES",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Contiene la estructura, llaves y descripción general de la tabla."
-  }
-}

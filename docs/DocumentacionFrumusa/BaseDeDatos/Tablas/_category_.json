@@ -1,8 +1,8 @@
 {
-  "label": "Tablas de la base de datos",
-  "position": 2,
+  "label": "Tablas",
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Información sobre las tablas de la base de datos."
+    "description": "Documentación detallada de las tablas de la base de datos Frumusa"
   }
 }
