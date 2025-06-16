@@ -6,6 +6,7 @@ La vista de Perfil de Usuario permite a los usuarios visualizar y gestionar su i
 
 ## Imágenes de la Vista
 ### Vista del Perfil de usuario
+
 <img src="/img/perfil-usuario-vista.png" alt="Vista del Perfil de Usuario" width="350" />
 
 ### Edición de perfil de usuario

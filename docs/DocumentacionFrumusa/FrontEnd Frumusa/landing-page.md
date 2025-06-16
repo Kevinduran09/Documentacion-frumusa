@@ -8,8 +8,8 @@ La landing page es la página principal de la aplicación Frumusa. Da la bienven
 ---
 
 ## Imagen
-- ![Landing Page de Frumusa - Hero](./vistas_images/landing-1.png)
-- ![Landing Page de Frumusa - ¿Quiénes Somos?](./vistas_images/landing-2.png)
+ ![Landing Page de Frumusa - Hero](./vistas_images/landing.png)
+ ![Landing Page de Frumusa - ¿Quiénes Somos?](./vistas_images/footer.png)
 
 ---
 

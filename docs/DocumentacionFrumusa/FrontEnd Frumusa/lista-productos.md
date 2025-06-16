@@ -6,7 +6,7 @@
 La página de Lista de Productos permite a los usuarios explorar el catálogo completo de productos disponibles en Frumusa. Ofrece herramientas de búsqueda, filtrado y visualización para facilitar la selección de productos, así como acceso rápido a funciones clave como agregar productos al carrito o solicitar pedidos.
 
 ## Imagen
-![Lista de Productos de Frumusa](./vistas_images/lista_productos.png)
+![Lista de Productos de Frumusa](./vistas_images/vista_productos.png)
 
 ## Componentes Utilizados
 - Barra de navegación superior (logo, enlaces de navegación, acceso a proveedores)
